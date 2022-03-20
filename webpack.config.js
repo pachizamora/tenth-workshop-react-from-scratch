@@ -21,7 +21,16 @@ module.exports = {
     ],
   },
   resolve: {
-    extensions: [".wasm", ".ts", ".tsx", ".mjs", ".cjs", ".js", "jsx", ".json"],
+    extensions: [
+      ".wasm",
+      ".ts",
+      ".tsx",
+      ".mjs",
+      ".cjs",
+      ".js",
+      ".jsx",
+      ".json",
+    ],
   },
   output: {
     path: path.join(__dirname, "dist/"),
